@@ -1,0 +1,17 @@
+Private Void TextBox1.Text TextChanged ( object sender , EvetArgs e )
+If ( TextBox1.Text ==" ")
+{
+
+ }
+else    
+}
+Try
+}
+Date Time1.Text = Date Time2.Value.AddDays(int.Parse(TextBox1.Text)).ToString();
+{
+catch (Exception ex)
+}
+
+MessageBox.Show (ex.ToString())
+{
+}
